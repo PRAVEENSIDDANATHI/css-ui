@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  // margin: 30px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.main-header {
+  /* HEADER 1*/
+  width: 100%;
+  position: fixed;
+  background: #2ddf5c;
+  padding: 8px 16px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-header>div {
+  /* 3 */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  /*4 */
+  display: inline-block;
+  /* 5*/
+  text-align: right;
+  width: calc(100% - 52px);
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  /* 6 */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  /* 2ND */
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:hover {
+  background: white;
+  color: #ff1b68;
+  border: none;
+}
+
+
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+}
+
+.main-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
